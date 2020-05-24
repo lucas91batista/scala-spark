@@ -1,3 +1,6 @@
 pandas
 py4j
 beakerx
+numpy
+jupyter-server-proxy
+code-server >=3.2
