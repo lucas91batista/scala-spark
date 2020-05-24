@@ -3,4 +3,4 @@ py4j
 beakerx
 numpy
 jupyter-server-proxy
-code-server >=3.2
+code-server
