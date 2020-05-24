@@ -1,7 +1,6 @@
 pandas
 py4j
 beakerx
-conda-forge
 numpy
 jupyter-server-proxy
 code-server >=3.2
