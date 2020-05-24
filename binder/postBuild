@@ -27,7 +27,7 @@ echo "export SPARK_HOME=${SPARK_HOME}" >> ~/.profile
 wget http://ftp.unicamp.br/pub/apache/spark/spark-${SPARK_VERSION}-preview2/spark-${SPARK_VERSION}-preview2-bin-hadoop2.7.tgz               && \
 tar -xvf spark-${SPARK_VERSION}-preview2-bin-hadoop2.7.tgz > /dev/null 										 		              && \
 rm       spark-${SPARK_VERSION}-preview2-bin-hadoop2.7.tgz															              && \
-mv 		 spark-${SPARK_VERSION}-preview2-bin-hadoop2.7.tgz	spark-${SPARK_VERSION}
+mv 		 spark-${SPARK_VERSION}-preview2-bin-hadoop2.7	spark-${SPARK_VERSION}
 
 # adding bin/ to $path
 echo "export PATH=\$PATH:\$SPARK_HOME/bin"   >> ~/.bashrc
